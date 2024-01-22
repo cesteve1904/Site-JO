@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>JO</title>
+    <link rel="stylesheet" media="screen" href="jo2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src='jo.js'></script></div>
+  </head>
+
+  <body>
+      <header>
+         <section id="bloc-entête">
+           <div class="titre">L'escalade sportive aux Jeux Olympiques
+           </div>
+           <p><div class=description>JO d'été de Paris 2024</div><p>
+          </section>
+          <a href = "https://www.paris2024.org/fr/"><img src="logo.png" id="img_entete"></a>
+      </header>                           
+      <ul>
+        <li><a href="https://www.ensg.eu/"><img src="p8.png" id="ensg">
+        <li><a href="jo.html">L'escalade aux JO</a></li>
+        <li><a href="jo2.html">L'histoire de l'escalade</a></li>
+        <li><a href="jo3.html">Les espoirs de 2024</a></li>
+        <li><a href="jo4.html">Contact</a></li>
+        </a></li>
+      </ul>
+      <br>
+      <hr size="5px" width="35%" color="white">
+            <div class=txt-pres>L'escalade : un sport millénaire qui fait son entrée au Jeaux Olympiques<br><br><br>
+      <hr size="5px" width="35%" color="white">
+      <section id="caroussel_photo">
+        <div class="titre-car"><strong> Une manière d'accerder au sommet avant d'être un sport</strong></div>
+        <div id = "Part5">
+            <h2 id = "GP">Galerie photo</h2>
+            <script src = "photo.js" defer></script>
+            <div class="slide-container">
+                <div class="custom-slider fade">
+                  <div class="slide-index">1 / 3</div>
+                  <img class="slide-img" src="archive1.jpeg">
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index">2 / 3</div>
+                  <img class="slide-img" src="archive2.jpg">
+                </div>
+                <div class="custom-slider fade">
+                  <div class="slide-index">3 / 3</div>
+                  <img class="slide-img" src="archive3.jpg">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <hr size="5px" width="35%" color="white">
+      <br>
+      <br>
+      <footer>
+      <div class=txtfooter>Site web réalisé par Camille Esteve - Master G2M Dans le cadre d'un projet de Web-mapping
+      </div>
+    </footer>
+    
